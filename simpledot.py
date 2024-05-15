@@ -6,7 +6,6 @@ class SimpleDotNotation:
     def __init__(self, data):
         self._data = data
 
-    @property
     def value(self):
         return self._data
 
